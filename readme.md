@@ -74,19 +74,19 @@ DDL任务重
 
 - 主界面
 
-![图片1](\随记草图\图片 1.png)
+![图片1](suiji\随记草图\图片 1.png)
 
 - 登录/注册
 
-![图片2](C:\Users\ljy\Desktop\随记草图\图片 2.png)
+![图片2](suiji\随记草图\图片 2.png)
 
 - 添加课程
 
-![图片3](C:\Users\ljy\Desktop\随记草图\图片 3.png)
+![图片3](suiji\随记草图\图片 3.png)
 
-![图片4](C:\Users\ljy\Desktop\随记草图\图片 4.png)
+![图片4](suiji\随记草图\图片 4.png)
 
 - 课堂笔记（文字+图片）
 
-![图片5](C:\Users\ljy\Desktop\随记草图\图片 5.png)
+![图片5](suiji\随记草图\图片 5.png)
 
