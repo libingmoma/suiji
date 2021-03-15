@@ -74,7 +74,7 @@ DDL任务重
 
 - 主界面
 
-![图片1](suiji\随记草图\图片 1.png)
+![图片1](https://github.com/libingmoma/suiji/blob/main/docs/%E9%9A%8F%E8%AE%B0%E8%8D%89%E5%9B%BE/%E5%9B%BE%E7%89%87%201.png)
 
 - 登录/注册
 
