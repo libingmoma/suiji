@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ade4d273-8d4a-4d62-a62c-15984552edd7" name="Default Changelist" comment="删除多余文件" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="back" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/back" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\admin\.m2\wrapper\dists\apache-maven-3.8.1-bin\2l5mhf2pq2clrde7f7qp1rdt5m\apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="C:\Users\admin\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1r6QlrsvLPoE7eeOvDJd6RtBjwP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="tasks.servers" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ade4d273-8d4a-4d62-a62c-15984552edd7" name="Default Changelist" comment="" />
+      <created>1618294214843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618294214843</updated>
+      <workItem from="1618294217145" duration="3092000" />
+      <workItem from="1618299201321" duration="3329000" />
+      <workItem from="1618304353342" duration="3324000" />
+      <workItem from="1618390338436" duration="3928000" />
+    </task>
+    <task id="LOCAL-00001" summary="删除readme">
+      <created>1618404131502</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618404131502</updated>
+    </task>
+    <task id="LOCAL-00002" summary="删除多余文件">
+      <created>1618404224961</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618404224961</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="back" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除readme" />
+    <MESSAGE value="删除多余文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除多余文件" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="398" y="132" key="FileChooserDialogImpl" timestamp="1618295289088">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state x="398" y="132" key="FileChooserDialogImpl/0.0.1234.783@0.0.1234.783" timestamp="1618295289088" />
+    <state width="1176" height="194" key="GridCell.Tab.0.bottom" timestamp="1618297353368">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state width="1176" height="194" key="GridCell.Tab.0.bottom/0.0.1234.783@0.0.1234.783" timestamp="1618297353368" />
+    <state width="1176" height="194" key="GridCell.Tab.0.center" timestamp="1618297353368">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state width="1176" height="194" key="GridCell.Tab.0.center/0.0.1234.783@0.0.1234.783" timestamp="1618297353368" />
+    <state width="1176" height="194" key="GridCell.Tab.0.left" timestamp="1618297353368">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state width="1176" height="194" key="GridCell.Tab.0.left/0.0.1234.783@0.0.1234.783" timestamp="1618297353368" />
+    <state width="1176" height="194" key="GridCell.Tab.0.right" timestamp="1618297353368">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state width="1176" height="194" key="GridCell.Tab.0.right/0.0.1234.783@0.0.1234.783" timestamp="1618297353368" />
+    <state width="1176" height="194" key="GridCell.Tab.1.bottom" timestamp="1618297353369">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state width="1176" height="194" key="GridCell.Tab.1.bottom/0.0.1234.783@0.0.1234.783" timestamp="1618297353369" />
+    <state width="1176" height="194" key="GridCell.Tab.1.center" timestamp="1618297353368">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state width="1176" height="194" key="GridCell.Tab.1.center/0.0.1234.783@0.0.1234.783" timestamp="1618297353368" />
+    <state width="1176" height="194" key="GridCell.Tab.1.left" timestamp="1618297353368">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state width="1176" height="194" key="GridCell.Tab.1.left/0.0.1234.783@0.0.1234.783" timestamp="1618297353368" />
+    <state width="1176" height="194" key="GridCell.Tab.1.right" timestamp="1618297353369">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state width="1176" height="194" key="GridCell.Tab.1.right/0.0.1234.783@0.0.1234.783" timestamp="1618297353369" />
+    <state x="119" y="36" key="SettingsEditor" timestamp="1618301216126">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state x="119" y="36" key="SettingsEditor/0.0.1234.783@0.0.1234.783" timestamp="1618301216126" />
+    <state x="210" y="124" key="Vcs.Push.Dialog.v2" timestamp="1618404229796">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state x="210" y="124" key="Vcs.Push.Dialog.v2/0.0.1234.783@0.0.1234.783" timestamp="1618404229796" />
+    <state x="424" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618403899596">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state x="424" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1234.783@0.0.1234.783" timestamp="1618403899596" />
+    <state x="0" y="52" key="new project wizard" timestamp="1618388507203">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state x="0" y="52" key="new project wizard/0.0.1234.783@0.0.1234.783" timestamp="1618388507203" />
+    <state x="280" y="104" width="672" height="678" key="search.everywhere.popup" timestamp="1618297031190">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state x="280" y="104" width="672" height="678" key="search.everywhere.popup/0.0.1234.783@0.0.1234.783" timestamp="1618297031190" />
+  </component>
+</project>
