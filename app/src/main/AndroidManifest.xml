@@ -9,7 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SuiJiFront">
-        <activity android:name=".MessageLogInActivity"></activity>
+        <activity android:name=".MyselfActivity"></activity>
+        <activity android:name=".TodoEditActivity" />
+        <activity android:name=".TodoAddActivity" />
+        <activity android:name=".TodoActivity" />
+        <activity android:name=".CsContentEditActivity" />
+        <activity android:name=".CsContentActivity" />
+        <activity android:name=".CsEditActivity" />
+        <activity android:name=".CsTableActivity" />
+        <activity android:name=".CsAddActivity" />
+        <activity android:name=".CourseActivity" />
+        <activity android:name=".JitangActivity" />
+        <activity android:name=".MessageLogInActivity" />
         <activity android:name=".LogInActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
