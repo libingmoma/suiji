@@ -19,7 +19,7 @@
             android:layout_marginTop="70dp"
             android:layout_marginRight="40dp"
             android:layout_marginBottom="170dp"
-            android:background="#E0E0F8">
+            android:background="@color/purple_300">
 
             <TextView
                 android:layout_width="match_parent"
@@ -37,8 +37,8 @@
                 android:id="@+id/edit1"
                 android:layout_width="100dp"
                 android:layout_height="50dp"
-                android:layout_marginLeft="260dp"
-                android:layout_marginTop="45dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="55dp"
                 android:text="编辑"
                 android:textColor="@color/white"
                 android:textSize="20sp"
@@ -52,7 +52,7 @@
                 android:layout_marginTop="120dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginBottom="35dp"
-                android:background="#CCCCFF">
+                android:background="@color/purple_400">
 
                 <TextView
                     android:id="@+id/t_jiTang"
@@ -76,7 +76,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
-            android:layout_marginTop="625dp"
+            android:layout_marginTop="590dp"
             android:layout_marginRight="80dp"
             android:background="#FFBB86"
             android:padding="9dp"
