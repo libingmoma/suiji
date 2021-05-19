@@ -34,12 +34,12 @@
             android:layout_marginLeft="30sp"
             android:layout_marginTop="40dp"
             android:layout_marginRight="30sp"
-            android:background="#FFBB86F"
-            android:hint="账号密码登录"
+            android:text="账号密码登录"
             android:padding="10dp"
             android:textColor="@android:color/white"
             android:textSize="25sp"
-            android:visibility="visible" />
+            android:visibility="visible"
+            app:backgroundTint="@color/purple_200" />
 
         <Button
             android:id="@+id/logIn2"
@@ -49,12 +49,12 @@
             android:layout_marginLeft="30sp"
             android:layout_marginTop="50dp"
             android:layout_marginRight="30sp"
-            android:background="#FFBB86F"
-            android:hint="手机号登录"
+            android:text="手机号登录"
             android:padding="10dp"
             android:textColor="@android:color/white"
             android:textSize="25sp"
-            android:visibility="visible" />
+            android:visibility="visible"
+            app:backgroundTint="@color/purple_200" />
 
     </RelativeLayout>
 

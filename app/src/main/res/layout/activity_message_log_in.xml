@@ -54,7 +54,7 @@
     </RelativeLayout>
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/login4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
