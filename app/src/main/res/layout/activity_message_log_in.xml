@@ -50,7 +50,8 @@
             android:textColor="@android:color/white"
             android:textSize="20sp"
             android:visibility="visible"
-            app:backgroundTint="@color/purple_200" />
+            android:backgroundTint="@color/purple_200"
+            app:backgroundTint="@color/purple_200"/>
     </RelativeLayout>
 
     <Button
@@ -66,7 +67,8 @@
         android:textColor="@android:color/white"
         android:textSize="30sp"
         android:visibility="visible"
-        app:backgroundTint="@color/purple_200" />
+        android:backgroundTint="@color/purple_200"
+        app:backgroundTint="@color/purple_200"/>
 
 
     <Button
