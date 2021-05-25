@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.Dao.CourseDao">
+    <resultMap id="CourseMap" type="com.example.demo.Model.Course">
+        <id column="course_id" jdbcType="BIGINT" property="course_id"/>
+        <result column="course_name" jdbcType="VARCHAR" property="course_name"/>
+        <result column="classroom_id" jdbcType="VARCHAR" property="classroom_id"/>
+        <result column="teacher_name" jdbcType="VARCHAR" property="teacher_name"/>
+    </resultMap>
+    <insert id="insertCourse" parameterType="long">
+        INSERT INTO course(course_id,course_name,classroom_id,teacher_name) value (#{course_id},#{course_name},#{classroom_id},#{teacher_name})
+    </insert>
+    <delete id="deleteCourse" parameterType="varchar">
+        DELETE FROM course where course_id = #{course_id}
+    </delete>
+</mapper>

@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suiji-demo/suiji-demo.iml" filepath="$PROJECT_DIR$/suiji-demo/suiji-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suiji-eureka/suiji-eureka.iml" filepath="$PROJECT_DIR$/suiji-eureka/suiji-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suiji_demo/suiji_demo.iml" filepath="$PROJECT_DIR$/suiji_demo/suiji_demo.iml" />
     </modules>
   </component>
 </project>

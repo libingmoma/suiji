@@ -9,15 +9,68 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:back" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ade4d273-8d4a-4d62-a62c-15984552edd7" name="Default Changelist" comment="删除多余文件" />
+    <list default="true" id="ade4d273-8d4a-4d62-a62c-15984552edd7" name="Default Changelist" comment="配置+添加course接口">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Base/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Base/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Base/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Base/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Base/BaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Dao/CourseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Model/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/util/FastJsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/util/IdGeneratorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/util/MyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CourseDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Tag Library Descriptor" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <excluded-from-favorite>
@@ -60,22 +113,29 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Base/BaseEntity.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="C:\Users\admin\.m2\wrapper\dists\apache-maven-3.8.1-bin\2l5mhf2pq2clrde7f7qp1rdt5m\apache-maven-3.8.1" />
-        <option name="userSettingsFile" value="C:\Users\admin\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1r6QlrsvLPoE7eeOvDJd6RtBjwP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -83,6 +143,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/example/demo" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -91,25 +152,28 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="tasks.servers" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\suiji\demo" />
+      <recent name="E:\suiji\demo\suiji_demo" />
+      <recent name="E:\suiji\demo\suiji-demo" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.demo" />
+      <recent name="com.example.demo.util" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,6 +194,15 @@
       <workItem from="1618299201321" duration="3329000" />
       <workItem from="1618304353342" duration="3324000" />
       <workItem from="1618390338436" duration="3928000" />
+      <workItem from="1618499040394" duration="1275000" />
+      <workItem from="1618754877785" duration="1200000" />
+      <workItem from="1618898113756" duration="9648000" />
+      <workItem from="1619089159295" duration="5059000" />
+      <workItem from="1620356033202" duration="6000" />
+      <workItem from="1620832320835" duration="13000000" />
+      <workItem from="1621406912355" duration="1584000" />
+      <workItem from="1621573279927" duration="28420000" />
+      <workItem from="1621951998806" duration="1642000" />
     </task>
     <task id="LOCAL-00001" summary="删除readme">
       <created>1618404131502</created>
@@ -156,7 +229,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="back" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -179,66 +264,124 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="删除readme" />
     <MESSAGE value="删除多余文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除多余文件" />
+    <MESSAGE value="配置+添加course接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置+添加course接口" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="398" y="132" key="FileChooserDialogImpl" timestamp="1618295289088">
+    <state x="246" y="0" width="755" height="783" key="#&lt;template&gt;_of_Spring_Boot" timestamp="1621774296287">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state x="398" y="132" key="FileChooserDialogImpl/0.0.1234.783@0.0.1234.783" timestamp="1618295289088" />
-    <state width="1176" height="194" key="GridCell.Tab.0.bottom" timestamp="1618297353368">
+    <state x="246" y="0" width="755" height="783" key="#&lt;template&gt;_of_Spring_Boot/0.0.1234.783@0.0.1234.783" timestamp="1621774296287" />
+    <state x="246" y="0" width="755" height="783" key="#DemoApplication" timestamp="1621774344094">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="194" key="GridCell.Tab.0.bottom/0.0.1234.783@0.0.1234.783" timestamp="1618297353368" />
-    <state width="1176" height="194" key="GridCell.Tab.0.center" timestamp="1618297353368">
+    <state x="246" y="0" width="755" height="783" key="#DemoApplication/0.0.1234.783@0.0.1234.783" timestamp="1621774344094" />
+    <state x="98" y="0" key="#Project_Structure" timestamp="1621841663410">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="194" key="GridCell.Tab.0.center/0.0.1234.783@0.0.1234.783" timestamp="1618297353368" />
-    <state width="1176" height="194" key="GridCell.Tab.0.left" timestamp="1618297353368">
+    <state x="98" y="0" key="#Project_Structure/0.0.1234.783@0.0.1234.783" timestamp="1621841663410" />
+    <state x="348" y="146" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1618985546007">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="194" key="GridCell.Tab.0.left/0.0.1234.783@0.0.1234.783" timestamp="1618297353368" />
-    <state width="1176" height="194" key="GridCell.Tab.0.right" timestamp="1618297353368">
+    <state x="348" y="146" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1234.783@0.0.1234.783" timestamp="1618985546007" />
+    <state x="72" y="46" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621951549416">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="194" key="GridCell.Tab.0.right/0.0.1234.783@0.0.1234.783" timestamp="1618297353368" />
-    <state width="1176" height="194" key="GridCell.Tab.1.bottom" timestamp="1618297353369">
+    <state x="72" y="46" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1234.783@0.0.1234.783" timestamp="1621951549416" />
+    <state x="423" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1621404581223">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="194" key="GridCell.Tab.1.bottom/0.0.1234.783@0.0.1234.783" timestamp="1618297353369" />
-    <state width="1176" height="194" key="GridCell.Tab.1.center" timestamp="1618297353368">
+    <state x="423" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1234.783@0.0.1234.783" timestamp="1621404581223" />
+    <state x="305" y="314" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1621404377107">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="194" key="GridCell.Tab.1.center/0.0.1234.783@0.0.1234.783" timestamp="1618297353368" />
-    <state width="1176" height="194" key="GridCell.Tab.1.left" timestamp="1618297353368">
+    <state x="305" y="314" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1234.783@0.0.1234.783" timestamp="1621404377107" />
+    <state x="395" y="258" width="444" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619146365178">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="194" key="GridCell.Tab.1.left/0.0.1234.783@0.0.1234.783" timestamp="1618297353368" />
-    <state width="1176" height="194" key="GridCell.Tab.1.right" timestamp="1618297353369">
+    <state x="395" y="258" width="444" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1234.783@0.0.1234.783" timestamp="1619146365178" />
+    <state x="348" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621948268268">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="194" key="GridCell.Tab.1.right/0.0.1234.783@0.0.1234.783" timestamp="1618297353369" />
-    <state x="119" y="36" key="SettingsEditor" timestamp="1618301216126">
+    <state x="348" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1234.783@0.0.1234.783" timestamp="1621948268268" />
+    <state x="398" y="132" key="FileChooserDialogImpl" timestamp="1621774522284">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state x="119" y="36" key="SettingsEditor/0.0.1234.783@0.0.1234.783" timestamp="1618301216126" />
-    <state x="210" y="124" key="Vcs.Push.Dialog.v2" timestamp="1618404229796">
+    <state x="398" y="132" key="FileChooserDialogImpl/0.0.1234.783@0.0.1234.783" timestamp="1621774522284" />
+    <state width="1176" height="165" key="GridCell.Tab.0.bottom" timestamp="1621952454830">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state x="210" y="124" key="Vcs.Push.Dialog.v2/0.0.1234.783@0.0.1234.783" timestamp="1618404229796" />
-    <state x="424" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618403899596">
+    <state width="1176" height="165" key="GridCell.Tab.0.bottom/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
+    <state width="1176" height="165" key="GridCell.Tab.0.center" timestamp="1621952454830">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state x="424" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1234.783@0.0.1234.783" timestamp="1618403899596" />
-    <state x="0" y="52" key="new project wizard" timestamp="1618388507203">
+    <state width="1176" height="165" key="GridCell.Tab.0.center/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
+    <state width="1176" height="165" key="GridCell.Tab.0.left" timestamp="1621952454830">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state x="0" y="52" key="new project wizard/0.0.1234.783@0.0.1234.783" timestamp="1618388507203" />
+    <state width="1176" height="165" key="GridCell.Tab.0.left/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
+    <state width="1176" height="165" key="GridCell.Tab.0.right" timestamp="1621952454830">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state width="1176" height="165" key="GridCell.Tab.0.right/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
+    <state width="1176" height="165" key="GridCell.Tab.1.bottom" timestamp="1621952454830">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state width="1176" height="165" key="GridCell.Tab.1.bottom/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
+    <state width="1176" height="165" key="GridCell.Tab.1.center" timestamp="1621952454830">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state width="1176" height="165" key="GridCell.Tab.1.center/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
+    <state width="1176" height="165" key="GridCell.Tab.1.left" timestamp="1621952454830">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state width="1176" height="165" key="GridCell.Tab.1.left/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
+    <state width="1176" height="165" key="GridCell.Tab.1.right" timestamp="1621952454830">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state width="1176" height="165" key="GridCell.Tab.1.right/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
+    <state width="210" height="477" key="HiddenNamespacesPopup" timestamp="1621951484316">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state width="210" height="477" key="HiddenNamespacesPopup/0.0.1234.783@0.0.1234.783" timestamp="1621951484316" />
+    <state x="148" y="46" key="Maven.ArtifactSearchDialog" timestamp="1621857398618">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state x="148" y="46" key="Maven.ArtifactSearchDialog/0.0.1234.783@0.0.1234.783" timestamp="1621857398618" />
+    <state x="119" y="0" key="SettingsEditor" timestamp="1621951092919">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state x="119" y="0" key="SettingsEditor/0.0.1234.783@0.0.1234.783" timestamp="1621951092919" />
+    <state x="210" y="124" key="Vcs.Push.Dialog.v2" timestamp="1618409375315">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state x="210" y="124" key="Vcs.Push.Dialog.v2/0.0.1234.783@0.0.1234.783" timestamp="1618409375315" />
+    <state x="418" y="169" key="chooseDestDirectoryDialog" timestamp="1621775509670">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state x="418" y="169" key="chooseDestDirectoryDialog/0.0.1234.783@0.0.1234.783" timestamp="1621775509670" />
+    <state x="424" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618981758981">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state x="424" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1234.783@0.0.1234.783" timestamp="1618981758981" />
+    <state x="318" y="0" width="597" height="783" key="find.popup" timestamp="1618899915061">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state x="318" y="0" width="597" height="783" key="find.popup/0.0.1234.783@0.0.1234.783" timestamp="1618899915061" />
+    <state x="0" y="3" key="new project wizard" timestamp="1621841618093">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state x="0" y="3" key="new project wizard/0.0.1234.783@0.0.1234.783" timestamp="1621841618093" />
     <state x="280" y="104" width="672" height="678" key="search.everywhere.popup" timestamp="1618297031190">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
     <state x="280" y="104" width="672" height="678" key="search.everywhere.popup/0.0.1234.783@0.0.1234.783" timestamp="1618297031190" />
+    <state x="298" y="74" key="spring file set editor" timestamp="1618982758955">
+      <screen x="0" y="0" width="1234" height="783" />
+    </state>
+    <state x="298" y="74" key="spring file set editor/0.0.1234.783@0.0.1234.783" timestamp="1618982758955" />
   </component>
 </project>
