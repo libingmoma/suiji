@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.Dao.ContentDao">
+    <resultMap id="ContentMap" type="com.example.demo.Model.Content">
+        <id column="cid" jdbcType="BIGINT" property="cid"/>
+        <result column="ctype" jdbcType="INTEGER" property="ctype"/>
+        <result column="cdescription" jdbcType="VARCHAR" property="cdescription"/>
+        <result column="rtime" jdbcType="VARCHAR" property="rtime"/>
+        <result column="picuri" jdbcType="VARCHAR" property="picuri"/>
+    </resultMap>
+
+    <insert id="insertContent" parameterType="Content">
+        INSERT INTO content (cid,ctype,cdescription,picuri,rtime) value (#{cid},#{ctype},#{cdescription},#{picuri},#{rtime})
+    </insert>
+
+    <delete id="deleteByRtime" parameterType="String">
+        DELETE FROM content where rtime=#{rtime}
+    </delete>
+
+</mapper>

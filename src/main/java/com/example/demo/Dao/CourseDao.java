@@ -9,6 +9,6 @@ import org.apache.ibatis.annotations.Select;
 public interface CourseDao extends MyMapper<Course> {
     @Select(value = "select * from course")
     List<Course> selectAll();
-    void insertCourse(long course_id);
-    void deleteCourse(long course_id);
+    void insertCourse(long courseid);
+    void deleteCourse(long courseid);
 }

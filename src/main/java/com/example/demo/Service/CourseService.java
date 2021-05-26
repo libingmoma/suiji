@@ -21,15 +21,15 @@ public class CourseService extends BaseServiceImpl<Course> {
     }
 
 
-    public List<Course> showAllcourse() {
+    public List<Course> showAllCourse() {
 
         return courseDao.selectAll();
     }
-    public void deleteCourse(long course_id) {
-        courseDao.deleteCourse(course_id);
+    public void deleteCourse(long courseid) {
+        courseDao.deleteCourse(courseid);
     }
-    public void insertCourse(long course_id) {
-        courseDao.insertCourse(course_id);
+    public void insertCourse(long courseid) {
+        courseDao.insertCourse(courseid);
     }
 
 

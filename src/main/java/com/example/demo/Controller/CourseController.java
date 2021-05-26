@@ -33,25 +33,25 @@ public class CourseController extends BaseController {
     @GetMapping(value = "/all", produces = {"application/json;charset=UTF-8"})
     @ApiOperation(value = "全部课程", notes = "全部课程")
     public String all() {
-        List<Course> result = courseService.showAllcourse();
+        List<Course> result = courseService.showAllCourse();
         return FastJsonUtils.resultSuccess(200, "拉取课程列表成功", result);
     }
 
     @GetMapping(value = "/delete", produces = {"application/json;charset=UTF-8"})
     @ApiOperation(value = "删除课程", notes = "删除课程")
-    public String delete(@ApiParam(name = "course_id", value = "课程id",required = true) @RequestParam long course_id){
-        courseService.deleteCourse(course_id);
+    public String delete(@ApiParam(name = "courseid", value = "课程id",required = true) @RequestParam long courseid){
+        courseService.deleteCourse(courseid);
         Map<String, Object> result = new HashMap<>();
-        result.put("course_id", course_id);
+        result.put("courseid", courseid);
         return FastJsonUtils.resultSuccess(200, "删除课程成功", result);
     }
 
     @GetMapping(value = "/insert", produces = {"application/json;charset=UTF-8"})
     @ApiOperation(value = "添加课程", notes = "添加课程")
-    public String insert(@ApiParam(name = "course_id", value = "课程id",required = true) @RequestParam long course_id){
-        courseService.insertCourse(course_id);
+    public String insert(@ApiParam(name = "courseid", value = "课程id",required = true) @RequestParam long courseid){
+        courseService.insertCourse(courseid);
         Map<String, Object> result = new HashMap<>();
-        result.put("course_id", course_id);
+        result.put("course_id", courseid);
         return FastJsonUtils.resultSuccess(200, "添加课程成功", result);
     }
 }

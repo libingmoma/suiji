@@ -1,68 +1,79 @@
 package com.example.demo.Model;
 
+import com.alibaba.fastjson.annotation.JSONType;
 import com.example.demo.Base.BaseEntity;
-
 import javax.persistence.Column;
 
 import javax.persistence.Table;
 
 
 @Table(name = "`course`")
+@JSONType(orders = {"courseid","coursename","classroomid", "teachername", "time"})
 public class Course extends BaseEntity {
-    @Column(name = "`course_id`")
-    private long course_id;
+    @Column(name = "`courseid`")
+    private long courseid;
 
-    @Column(name = "`course_name`")
-    private String course_name;
+    @Column(name = "`coursename`")
+    private String coursename;
 
-    @Column(name = "`classroom_id`")
-    private long classroom_id;
+    @Column(name = "`classroomid`")
+    private long classroomid;
 
-    @Column(name = "`teacher_name`")
-    private String teacher_name;
+    @Column(name = "`teachername`")
+    private String teachername;
 
+    @Column(name = "`time`")
+    private String time;
 
-
-    public Course(long course_id, String course_name,long classroom_id, String teacher_name) {
-        this.course_id = course_id;
-        this.course_name = course_name;
-        this.classroom_id = classroom_id;
-        this.teacher_name = teacher_name;
+    public Course(long courseid, String coursename,long classroomid, String teachername,String time) {
+        this.courseid = courseid;
+        this.coursename = coursename;
+        this.classroomid = classroomid;
+        this.teachername = teachername;
+        this.time = time;
     }
 
     public Course() {
 
     }
 
-    public long getCourse_id() {
-        return course_id;
+    public long getCourseid() {
+        return courseid;
     }
 
-    public void setCourse_id(long course_id) {
-        this.course_id = course_id;
+    public void setCourseid(long courseid) {
+        this.courseid = courseid;
     }
 
-    public String getCourse_name() {
-        return course_name;
+    public String getCoursename() {
+        return coursename;
     }
 
-    public void setCourse_name(String course_name) {
-        this.course_name = course_name;
+    public void setCoursename(String coursename) {
+        this.coursename = coursename;
     }
 
-    public long getClassroom_id() {
-        return classroom_id;
+    public long getClassroomid() {
+        return classroomid;
     }
 
-    public void setClassroom_id(long classroom_id) {
-        this.classroom_id = classroom_id;
+    public void setClassroomid(long classroomid) {
+        this.classroomid = classroomid;
     }
 
-    public String getTeacher_name() {
-        return teacher_name;
+    public String getTeachername() {
+        return teachername;
     }
 
-    public void setTeacher_name(String teacher_name) {
-        this.teacher_name = teacher_name;
+    public void setTeachername(String teachername) {
+
+        this.teachername = teachername;
+    }
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
     }
 }

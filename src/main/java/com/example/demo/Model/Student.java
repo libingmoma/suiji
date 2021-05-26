@@ -9,33 +9,18 @@ import javax.persistence.Table;
 @JSONType(orders = {"uid","name","password", "description", "phone"})
 public class Student extends BaseEntity {
 
-    /**
-     * uid
-     */
     @Column(name = "`uid`")
     private long uid;
 
-    /**
-     * 密码
-     */
     @Column(name = "`password`")
     private String password;
 
-    /**
-     * 描述
-     */
     @Column(name = "`name`")
     private String name;
 
-    /**
-     * 描述
-     */
     @Column(name = "`description`")
     private String description;
 
-    /**
-     * 电话
-     */
     @Column(name = "`phone`")
     private String phone;
 
