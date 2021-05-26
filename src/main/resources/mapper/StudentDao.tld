@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.Dao.StudentDao">
+    <resultMap id="StudentMap" type="com.example.demo.Model.Student">
+        <id column="uid" jdbcType="BIGINT" property="uid"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="password" jdbcType="VARCHAR" property="password"/>
+        <result column="description" jdbcType="VARCHAR" property="description"/>
+        <result column="phone" jdbcType="VARCHAR" property="phone"/>
+    </resultMap>
+
+    <select id="selectByDescription" parameterType="string" resultMap="StudentMap">
+        select * FROM student s where s.description like "%"#{description}"%"
+    </select>
+
+    <select id="selectByPhoneAndPassword" parameterType="Student" resultMap="StudentMap">
+        select * FROM student s where s.phone =#{phone} and s.password=#{password}
+    </select>
+
+    <insert id="insertStudent" parameterType="Student">
+        INSERT INTO student (uid,`name`, password, description,phone) Value(#{uid},#{name},#{password},#{description},#{phone})
+    </insert>
+    <!--
+        区间[left,right]
+        <select id="selectByYearInterval"  parameterType="int" resultMap="FilmMap">
+            select * FROM film f where f.year between #{left} and #{right}
+        </select>
+
+        或逻辑
+        <select id="selectByActName"  parameterType="string" resultMap="FilmMap">
+            select * FROM film f where f.actor = #{name} or f.actress = #{name}
+        </select>
+    -->
+</mapper>

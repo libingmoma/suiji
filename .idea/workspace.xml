@@ -29,32 +29,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ade4d273-8d4a-4d62-a62c-15984552edd7" name="Default Changelist" comment="配置+添加course接口">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Base/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Base/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Base/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Base/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Base/BaseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Dao/CourseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Model/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/util/FastJsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/util/IdGeneratorUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/util/MyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CourseDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/StudentDao.tld" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CourseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CourseDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +153,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -202,7 +199,7 @@
       <workItem from="1620832320835" duration="13000000" />
       <workItem from="1621406912355" duration="1584000" />
       <workItem from="1621573279927" duration="28420000" />
-      <workItem from="1621951998806" duration="1642000" />
+      <workItem from="1621951998806" duration="8528000" />
     </task>
     <task id="LOCAL-00001" summary="删除readme">
       <created>1618404131502</created>
@@ -218,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618404224961</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="配置+添加course接口">
+      <created>1621953674825</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621953674825</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,10 +291,10 @@
       <screen x="0" y="0" width="1234" height="783" />
     </state>
     <state x="348" y="146" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1234.783@0.0.1234.783" timestamp="1618985546007" />
-    <state x="72" y="46" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621951549416">
+    <state x="72" y="46" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621955289404">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state x="72" y="46" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1234.783@0.0.1234.783" timestamp="1621951549416" />
+    <state x="72" y="46" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1234.783@0.0.1234.783" timestamp="1621955289404" />
     <state x="423" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1621404581223">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
@@ -311,38 +315,38 @@
       <screen x="0" y="0" width="1234" height="783" />
     </state>
     <state x="398" y="132" key="FileChooserDialogImpl/0.0.1234.783@0.0.1234.783" timestamp="1621774522284" />
-    <state width="1176" height="165" key="GridCell.Tab.0.bottom" timestamp="1621952454830">
+    <state width="1176" height="145" key="GridCell.Tab.0.bottom" timestamp="1622012239779">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="165" key="GridCell.Tab.0.bottom/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
-    <state width="1176" height="165" key="GridCell.Tab.0.center" timestamp="1621952454830">
+    <state width="1176" height="145" key="GridCell.Tab.0.bottom/0.0.1234.783@0.0.1234.783" timestamp="1622012239779" />
+    <state width="1176" height="145" key="GridCell.Tab.0.center" timestamp="1622012239779">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="165" key="GridCell.Tab.0.center/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
-    <state width="1176" height="165" key="GridCell.Tab.0.left" timestamp="1621952454830">
+    <state width="1176" height="145" key="GridCell.Tab.0.center/0.0.1234.783@0.0.1234.783" timestamp="1622012239779" />
+    <state width="1176" height="145" key="GridCell.Tab.0.left" timestamp="1622012239779">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="165" key="GridCell.Tab.0.left/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
-    <state width="1176" height="165" key="GridCell.Tab.0.right" timestamp="1621952454830">
+    <state width="1176" height="145" key="GridCell.Tab.0.left/0.0.1234.783@0.0.1234.783" timestamp="1622012239779" />
+    <state width="1176" height="145" key="GridCell.Tab.0.right" timestamp="1622012239779">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="165" key="GridCell.Tab.0.right/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
-    <state width="1176" height="165" key="GridCell.Tab.1.bottom" timestamp="1621952454830">
+    <state width="1176" height="145" key="GridCell.Tab.0.right/0.0.1234.783@0.0.1234.783" timestamp="1622012239779" />
+    <state width="1176" height="145" key="GridCell.Tab.1.bottom" timestamp="1622012239779">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="165" key="GridCell.Tab.1.bottom/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
-    <state width="1176" height="165" key="GridCell.Tab.1.center" timestamp="1621952454830">
+    <state width="1176" height="145" key="GridCell.Tab.1.bottom/0.0.1234.783@0.0.1234.783" timestamp="1622012239779" />
+    <state width="1176" height="145" key="GridCell.Tab.1.center" timestamp="1622012239779">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="165" key="GridCell.Tab.1.center/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
-    <state width="1176" height="165" key="GridCell.Tab.1.left" timestamp="1621952454830">
+    <state width="1176" height="145" key="GridCell.Tab.1.center/0.0.1234.783@0.0.1234.783" timestamp="1622012239779" />
+    <state width="1176" height="145" key="GridCell.Tab.1.left" timestamp="1622012239779">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="165" key="GridCell.Tab.1.left/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
-    <state width="1176" height="165" key="GridCell.Tab.1.right" timestamp="1621952454830">
+    <state width="1176" height="145" key="GridCell.Tab.1.left/0.0.1234.783@0.0.1234.783" timestamp="1622012239779" />
+    <state width="1176" height="145" key="GridCell.Tab.1.right" timestamp="1622012239779">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="165" key="GridCell.Tab.1.right/0.0.1234.783@0.0.1234.783" timestamp="1621952454830" />
+    <state width="1176" height="145" key="GridCell.Tab.1.right/0.0.1234.783@0.0.1234.783" timestamp="1622012239779" />
     <state width="210" height="477" key="HiddenNamespacesPopup" timestamp="1621951484316">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
@@ -355,10 +359,10 @@
       <screen x="0" y="0" width="1234" height="783" />
     </state>
     <state x="119" y="0" key="SettingsEditor/0.0.1234.783@0.0.1234.783" timestamp="1621951092919" />
-    <state x="210" y="124" key="Vcs.Push.Dialog.v2" timestamp="1618409375315">
+    <state x="210" y="124" key="Vcs.Push.Dialog.v2" timestamp="1621953679269">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state x="210" y="124" key="Vcs.Push.Dialog.v2/0.0.1234.783@0.0.1234.783" timestamp="1618409375315" />
+    <state x="210" y="124" key="Vcs.Push.Dialog.v2/0.0.1234.783@0.0.1234.783" timestamp="1621953679269" />
     <state x="418" y="169" key="chooseDestDirectoryDialog" timestamp="1621775509670">
       <screen x="0" y="0" width="1234" height="783" />
     </state>

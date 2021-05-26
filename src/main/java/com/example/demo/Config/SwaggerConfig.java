@@ -24,7 +24,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.suiji.demo.simpleserver.controller")) //这里写的是API接口所在的包位置
+                .apis(RequestHandlerSelectors.basePackage("com.example.demo.Controller")) //这里写的是API接口所在的包位置
                 .paths(PathSelectors.any())
                 .build();
     }
