@@ -28,20 +28,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ade4d273-8d4a-4d62-a62c-15984552edd7" name="Default Changelist" comment="配置+添加student接口">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controller/ContentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Dao/ContentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Model/Content.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Service/ContentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ContentDao.xml" afterDir="false" />
+    <list default="true" id="ade4d273-8d4a-4d62-a62c-15984552edd7" name="Default Changelist" comment="hhp配置+添加content接口，并对course接口有一些修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Dao/CourseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Dao/CourseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Model/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Service/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CourseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CourseDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/StudentDao.tld" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/StudentDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +178,8 @@
       <workItem from="1621406912355" duration="1584000" />
       <workItem from="1621573279927" duration="28420000" />
       <workItem from="1621951998806" duration="24302000" />
+      <workItem from="1622036020163" duration="2441000" />
+      <workItem from="1622109719912" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="删除readme">
       <created>1618404131502</created>
@@ -219,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622012288835</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hhp配置+添加content接口，并对course接口有一些修改">
+      <created>1622036327505</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622036327505</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +267,8 @@
     <MESSAGE value="删除多余文件" />
     <MESSAGE value="配置+添加course接口" />
     <MESSAGE value="配置+添加student接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置+添加student接口" />
+    <MESSAGE value="hhp配置+添加content接口，并对course接口有一些修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="hhp配置+添加content接口，并对course接口有一些修改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="246" y="0" width="755" height="783" key="#&lt;template&gt;_of_Spring_Boot" timestamp="1621774296287">
@@ -293,10 +291,10 @@
       <screen x="0" y="0" width="1234" height="783" />
     </state>
     <state x="348" y="146" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1234.783@0.0.1234.783" timestamp="1618985546007" />
-    <state x="72" y="46" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621955289404">
+    <state x="72" y="46" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622036044142">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state x="72" y="46" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1234.783@0.0.1234.783" timestamp="1621955289404" />
+    <state x="72" y="46" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1234.783@0.0.1234.783" timestamp="1622036044142" />
     <state x="423" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1621404581223">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
@@ -321,38 +319,38 @@
       <screen x="0" y="0" width="1234" height="783" />
     </state>
     <state x="398" y="132" key="FileChooserDialogImpl/0.0.1234.783@0.0.1234.783" timestamp="1621774522284" />
-    <state width="1176" height="252" key="GridCell.Tab.0.bottom" timestamp="1622035884643">
+    <state width="587" height="252" key="GridCell.Tab.0.bottom" timestamp="1622083630222">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="252" key="GridCell.Tab.0.bottom/0.0.1234.783@0.0.1234.783" timestamp="1622035884643" />
-    <state width="1176" height="252" key="GridCell.Tab.0.center" timestamp="1622035884643">
+    <state width="587" height="252" key="GridCell.Tab.0.bottom/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
+    <state width="587" height="252" key="GridCell.Tab.0.center" timestamp="1622083630222">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="252" key="GridCell.Tab.0.center/0.0.1234.783@0.0.1234.783" timestamp="1622035884643" />
-    <state width="1176" height="252" key="GridCell.Tab.0.left" timestamp="1622035884643">
+    <state width="587" height="252" key="GridCell.Tab.0.center/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
+    <state width="587" height="252" key="GridCell.Tab.0.left" timestamp="1622083630222">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="252" key="GridCell.Tab.0.left/0.0.1234.783@0.0.1234.783" timestamp="1622035884643" />
-    <state width="1176" height="252" key="GridCell.Tab.0.right" timestamp="1622035884643">
+    <state width="587" height="252" key="GridCell.Tab.0.left/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
+    <state width="587" height="252" key="GridCell.Tab.0.right" timestamp="1622083630222">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="252" key="GridCell.Tab.0.right/0.0.1234.783@0.0.1234.783" timestamp="1622035884643" />
-    <state width="1176" height="252" key="GridCell.Tab.1.bottom" timestamp="1622035884644">
+    <state width="587" height="252" key="GridCell.Tab.0.right/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
+    <state width="587" height="252" key="GridCell.Tab.1.bottom" timestamp="1622083630222">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="252" key="GridCell.Tab.1.bottom/0.0.1234.783@0.0.1234.783" timestamp="1622035884644" />
-    <state width="1176" height="252" key="GridCell.Tab.1.center" timestamp="1622035884644">
+    <state width="587" height="252" key="GridCell.Tab.1.bottom/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
+    <state width="587" height="252" key="GridCell.Tab.1.center" timestamp="1622083630222">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="252" key="GridCell.Tab.1.center/0.0.1234.783@0.0.1234.783" timestamp="1622035884644" />
-    <state width="1176" height="252" key="GridCell.Tab.1.left" timestamp="1622035884644">
+    <state width="587" height="252" key="GridCell.Tab.1.center/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
+    <state width="587" height="252" key="GridCell.Tab.1.left" timestamp="1622083630222">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="252" key="GridCell.Tab.1.left/0.0.1234.783@0.0.1234.783" timestamp="1622035884644" />
-    <state width="1176" height="252" key="GridCell.Tab.1.right" timestamp="1622035884644">
+    <state width="587" height="252" key="GridCell.Tab.1.left/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
+    <state width="587" height="252" key="GridCell.Tab.1.right" timestamp="1622083630222">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="252" key="GridCell.Tab.1.right/0.0.1234.783@0.0.1234.783" timestamp="1622035884644" />
+    <state width="587" height="252" key="GridCell.Tab.1.right/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
     <state width="210" height="477" key="HiddenNamespacesPopup" timestamp="1621951484316">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
@@ -365,10 +363,10 @@
       <screen x="0" y="0" width="1234" height="783" />
     </state>
     <state x="119" y="0" key="SettingsEditor/0.0.1234.783@0.0.1234.783" timestamp="1621951092919" />
-    <state x="210" y="124" key="Vcs.Push.Dialog.v2" timestamp="1622012294534">
+    <state x="210" y="124" key="Vcs.Push.Dialog.v2" timestamp="1622036342416">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state x="210" y="124" key="Vcs.Push.Dialog.v2/0.0.1234.783@0.0.1234.783" timestamp="1622012294534" />
+    <state x="210" y="124" key="Vcs.Push.Dialog.v2/0.0.1234.783@0.0.1234.783" timestamp="1622036342416" />
     <state x="418" y="169" key="chooseDestDirectoryDialog" timestamp="1621775509670">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
@@ -381,10 +379,10 @@
       <screen x="0" y="0" width="1234" height="783" />
     </state>
     <state x="318" y="0" width="597" height="783" key="find.popup/0.0.1234.783@0.0.1234.783" timestamp="1618899915061" />
-    <state x="0" y="3" key="new project wizard" timestamp="1621841618093">
+    <state x="0" y="3" key="new project wizard" timestamp="1622083586158">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state x="0" y="3" key="new project wizard/0.0.1234.783@0.0.1234.783" timestamp="1621841618093" />
+    <state x="0" y="3" key="new project wizard/0.0.1234.783@0.0.1234.783" timestamp="1622083586158" />
     <state x="280" y="104" width="672" height="678" key="search.everywhere.popup" timestamp="1622021654993">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
