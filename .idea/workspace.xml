@@ -28,12 +28,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ade4d273-8d4a-4d62-a62c-15984552edd7" name="Default Changelist" comment="hhp修改关于配置文件的一些问题并添加course接口的错误">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controller/JitangController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Dao/JitangDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Model/Jitang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Service/JitangService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/JitangDao.xml" afterDir="false" />
+    <list default="true" id="ade4d273-8d4a-4d62-a62c-15984552edd7" name="Default Changelist" comment="王晶睿添加了鸡汤接口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +180,7 @@
       <workItem from="1621951998806" duration="24302000" />
       <workItem from="1622036020163" duration="2441000" />
       <workItem from="1622109719912" duration="1208000" />
-      <workItem from="1622112708058" duration="12624000" />
+      <workItem from="1622112708058" duration="13931000" />
     </task>
     <task id="LOCAL-00001" summary="删除readme">
       <created>1618404131502</created>
@@ -236,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622184602235</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="王晶睿添加了鸡汤接口">
+      <created>1622190035306</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622190035306</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +292,8 @@
     <MESSAGE value="hhp配置+添加content接口，并对course接口有一些修改" />
     <MESSAGE value="hhp修改关于返回数据多出一个id的问题" />
     <MESSAGE value="hhp修改关于配置文件的一些问题并添加course接口的错误" />
-    <option name="LAST_COMMIT_MESSAGE" value="hhp修改关于配置文件的一些问题并添加course接口的错误" />
+    <MESSAGE value="王晶睿添加了鸡汤接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="王晶睿添加了鸡汤接口" />
   </component>
   <component name="WindowStateProjectService">
     <state x="246" y="0" width="755" height="783" key="#&lt;template&gt;_of_Spring_Boot" timestamp="1621774296287">
@@ -341,38 +344,38 @@
       <screen x="0" y="0" width="1234" height="783" />
     </state>
     <state x="398" y="132" key="FileChooserDialogImpl/0.0.1234.783@0.0.1234.783" timestamp="1622112941650" />
-    <state width="1176" height="401" key="GridCell.Tab.0.bottom" timestamp="1622189727340">
+    <state width="1176" height="281" key="GridCell.Tab.0.bottom" timestamp="1622189990135">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="401" key="GridCell.Tab.0.bottom/0.0.1234.783@0.0.1234.783" timestamp="1622189727340" />
-    <state width="1176" height="401" key="GridCell.Tab.0.center" timestamp="1622189727340">
+    <state width="1176" height="281" key="GridCell.Tab.0.bottom/0.0.1234.783@0.0.1234.783" timestamp="1622189990135" />
+    <state width="1176" height="281" key="GridCell.Tab.0.center" timestamp="1622189990135">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="401" key="GridCell.Tab.0.center/0.0.1234.783@0.0.1234.783" timestamp="1622189727340" />
-    <state width="1176" height="401" key="GridCell.Tab.0.left" timestamp="1622189727339">
+    <state width="1176" height="281" key="GridCell.Tab.0.center/0.0.1234.783@0.0.1234.783" timestamp="1622189990135" />
+    <state width="1176" height="281" key="GridCell.Tab.0.left" timestamp="1622189990134">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="401" key="GridCell.Tab.0.left/0.0.1234.783@0.0.1234.783" timestamp="1622189727339" />
-    <state width="1176" height="401" key="GridCell.Tab.0.right" timestamp="1622189727340">
+    <state width="1176" height="281" key="GridCell.Tab.0.left/0.0.1234.783@0.0.1234.783" timestamp="1622189990134" />
+    <state width="1176" height="281" key="GridCell.Tab.0.right" timestamp="1622189990135">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="401" key="GridCell.Tab.0.right/0.0.1234.783@0.0.1234.783" timestamp="1622189727340" />
-    <state width="1176" height="401" key="GridCell.Tab.1.bottom" timestamp="1622189727340">
+    <state width="1176" height="281" key="GridCell.Tab.0.right/0.0.1234.783@0.0.1234.783" timestamp="1622189990135" />
+    <state width="1176" height="281" key="GridCell.Tab.1.bottom" timestamp="1622189990135">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="401" key="GridCell.Tab.1.bottom/0.0.1234.783@0.0.1234.783" timestamp="1622189727340" />
-    <state width="1176" height="401" key="GridCell.Tab.1.center" timestamp="1622189727340">
+    <state width="1176" height="281" key="GridCell.Tab.1.bottom/0.0.1234.783@0.0.1234.783" timestamp="1622189990135" />
+    <state width="1176" height="281" key="GridCell.Tab.1.center" timestamp="1622189990135">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="401" key="GridCell.Tab.1.center/0.0.1234.783@0.0.1234.783" timestamp="1622189727340" />
-    <state width="1176" height="401" key="GridCell.Tab.1.left" timestamp="1622189727340">
+    <state width="1176" height="281" key="GridCell.Tab.1.center/0.0.1234.783@0.0.1234.783" timestamp="1622189990135" />
+    <state width="1176" height="281" key="GridCell.Tab.1.left" timestamp="1622189990135">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="401" key="GridCell.Tab.1.left/0.0.1234.783@0.0.1234.783" timestamp="1622189727340" />
-    <state width="1176" height="401" key="GridCell.Tab.1.right" timestamp="1622189727340">
+    <state width="1176" height="281" key="GridCell.Tab.1.left/0.0.1234.783@0.0.1234.783" timestamp="1622189990135" />
+    <state width="1176" height="281" key="GridCell.Tab.1.right" timestamp="1622189990135">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="1176" height="401" key="GridCell.Tab.1.right/0.0.1234.783@0.0.1234.783" timestamp="1622189727340" />
+    <state width="1176" height="281" key="GridCell.Tab.1.right/0.0.1234.783@0.0.1234.783" timestamp="1622189990135" />
     <state width="210" height="477" key="HiddenNamespacesPopup" timestamp="1621951484316">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
@@ -385,18 +388,18 @@
       <screen x="0" y="0" width="1234" height="783" />
     </state>
     <state x="119" y="0" key="SettingsEditor/0.0.1234.783@0.0.1234.783" timestamp="1621951092919" />
-    <state x="210" y="124" key="Vcs.Push.Dialog.v2" timestamp="1622184607538">
+    <state x="210" y="124" key="Vcs.Push.Dialog.v2" timestamp="1622190040706">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state x="210" y="124" key="Vcs.Push.Dialog.v2/0.0.1234.783@0.0.1234.783" timestamp="1622184607538" />
+    <state x="210" y="124" key="Vcs.Push.Dialog.v2/0.0.1234.783@0.0.1234.783" timestamp="1622190040706" />
     <state x="418" y="169" key="chooseDestDirectoryDialog" timestamp="1621775509670">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
     <state x="418" y="169" key="chooseDestDirectoryDialog/0.0.1234.783@0.0.1234.783" timestamp="1621775509670" />
-    <state x="424" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618981758981">
+    <state x="424" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622192886698">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state x="424" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1234.783@0.0.1234.783" timestamp="1618981758981" />
+    <state x="424" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1234.783@0.0.1234.783" timestamp="1622192886698" />
     <state x="318" y="0" width="597" height="783" key="find.popup" timestamp="1618899915061">
       <screen x="0" y="0" width="1234" height="783" />
     </state>

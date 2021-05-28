@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.Dao.TodolistDao">
+    <resultMap id="TodolistMap" type="com.example.demo.Model.Todolist">
+        <id column="todoid" jdbcType="BIGINT" property="todoid"/>
+        <result column="todo" jdbcType="VARCHAR" property="todo"/>
+        <result column="ddl" jdbcType="VARCHAR" property="ddl"/>
+    </resultMap>
+    <insert id="insertTodolist" parameterType="String">
+        INSERT INTO todolist(todo,ddl) value (#{todo},#{ddl})
+    </insert>
+    <delete id="deleteTodolist" parameterType="String">
+        DELETE FROM todolist where todo = #{todo}
+    </delete>
+</mapper>
