@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.Dao.JitangDao">
+    <resultMap id="JitangMap" type="com.example.demo.Model.Jitang">
+        <id column="jid" jdbcType="BIGINT" property="jid"/>
+        <result column="content" jdbcType="VARCHAR" property="content"/>
+    </resultMap>
+    <insert id="insertJitang" parameterType="String">
+        INSERT INTO jitang(content) value (#{content})
+    </insert>
+    <delete id="deleteJitang" parameterType="long">
+        DELETE FROM jitang where jid = #{jid}
+    </delete>
+</mapper>
