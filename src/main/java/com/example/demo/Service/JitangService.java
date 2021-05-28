@@ -26,8 +26,8 @@ public class JitangService extends BaseServiceImpl<Jitang> {
         return jitangDao.selectAll();
     }
 
-    public void deleteJitang(long jid) {
-        jitangDao.deleteJitang(jid);
+    public void deleteJitang(String content) {
+        jitangDao.deleteJitang(content);
     }
     public void insertJitang(String content) {
         jitangDao.insertJitang(content);
