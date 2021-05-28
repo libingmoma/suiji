@@ -10,5 +10,5 @@ public interface JitangDao extends MyMapper<Jitang>{
     @Select(value = "select * from jitang")
     List<Jitang> selectAll();
     void insertJitang(String content);
-    void deleteJitang(long jid);
+    void deleteJitang(String content);
 }
