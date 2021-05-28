@@ -38,10 +38,10 @@ public class JitangController extends BaseController {
 
     @GetMapping(value = "/delete", produces = {"application/json;charset=UTF-8"})
     @ApiOperation(value = "删除鸡汤", notes = "删除鸡汤")
-    public String delete(@ApiParam(name = "jid", value = "鸡汤id", required = true) @RequestParam long jid) {
-        jitangService.deleteJitang(jid);
+    public String delete(@ApiParam(name = "content", value = "鸡汤content", required = true) @RequestParam String content) {
+        jitangService.deleteJitang(content);
         Map<String, Object> result = new HashMap<>();
-        result.put("jid", jid);
+        result.put("content", content);
         return FastJsonUtils.resultSuccess(200, "删除鸡汤成功", result);
     }
 
