@@ -8,7 +8,7 @@
     <insert id="insertJitang" parameterType="String">
         INSERT INTO jitang(content) value (#{content})
     </insert>
-    <delete id="deleteJitang" parameterType="long">
-        DELETE FROM jitang where jid = #{jid}
+    <delete id="deleteJitang" parameterType="String">
+        DELETE FROM jitang where content = #{content}
     </delete>
 </mapper>
