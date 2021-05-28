@@ -13,7 +13,9 @@
         select * FROM course c where c.coursename like "%"#{coursename}"%"
     </select>
 
-
+    <delete id="deleteByCourseId" parameterType="long">
+        DELETE FROM course where courseid=#{coursseid}
+    </delete>
     <insert id="insertCourse" parameterType="Course">
         INSERT INTO course (courseid,coursename, classroomid, teachername,time) Value(#{courseid},#{coursename},#{classroomid},#{teachername},#{time})
     </insert>

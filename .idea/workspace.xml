@@ -28,8 +28,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ade4d273-8d4a-4d62-a62c-15984552edd7" name="Default Changelist" comment="hhp配置+添加content接口，并对course接口有一些修改">
+    <list default="true" id="ade4d273-8d4a-4d62-a62c-15984552edd7" name="Default Changelist" comment="hhp修改关于返回数据多出一个id的问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Controller/ContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controller/ContentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Dao/CourseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Dao/CourseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CourseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CourseDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +186,8 @@
       <workItem from="1621573279927" duration="28420000" />
       <workItem from="1621951998806" duration="24302000" />
       <workItem from="1622036020163" duration="2441000" />
-      <workItem from="1622109719912" duration="322000" />
+      <workItem from="1622109719912" duration="1208000" />
+      <workItem from="1622112708058" duration="9338000" />
     </task>
     <task id="LOCAL-00001" summary="删除readme">
       <created>1618404131502</created>
@@ -216,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622036327505</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hhp修改关于返回数据多出一个id的问题">
+      <created>1622110489957</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622110489957</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +283,8 @@
     <MESSAGE value="配置+添加course接口" />
     <MESSAGE value="配置+添加student接口" />
     <MESSAGE value="hhp配置+添加content接口，并对course接口有一些修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="hhp配置+添加content接口，并对course接口有一些修改" />
+    <MESSAGE value="hhp修改关于返回数据多出一个id的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="hhp修改关于返回数据多出一个id的问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="246" y="0" width="755" height="783" key="#&lt;template&gt;_of_Spring_Boot" timestamp="1621774296287">
@@ -315,42 +331,42 @@
       <screen x="0" y="0" width="1234" height="783" />
     </state>
     <state x="360" y="84" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1234.783@0.0.1234.783" timestamp="1622034379354" />
-    <state x="398" y="132" key="FileChooserDialogImpl" timestamp="1621774522284">
+    <state x="398" y="132" key="FileChooserDialogImpl" timestamp="1622112941650">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state x="398" y="132" key="FileChooserDialogImpl/0.0.1234.783@0.0.1234.783" timestamp="1621774522284" />
-    <state width="587" height="252" key="GridCell.Tab.0.bottom" timestamp="1622083630222">
+    <state x="398" y="132" key="FileChooserDialogImpl/0.0.1234.783@0.0.1234.783" timestamp="1622112941650" />
+    <state width="1176" height="130" key="GridCell.Tab.0.bottom" timestamp="1622184264612">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="587" height="252" key="GridCell.Tab.0.bottom/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
-    <state width="587" height="252" key="GridCell.Tab.0.center" timestamp="1622083630222">
+    <state width="1176" height="130" key="GridCell.Tab.0.bottom/0.0.1234.783@0.0.1234.783" timestamp="1622184264612" />
+    <state width="1176" height="130" key="GridCell.Tab.0.center" timestamp="1622184264612">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="587" height="252" key="GridCell.Tab.0.center/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
-    <state width="587" height="252" key="GridCell.Tab.0.left" timestamp="1622083630222">
+    <state width="1176" height="130" key="GridCell.Tab.0.center/0.0.1234.783@0.0.1234.783" timestamp="1622184264612" />
+    <state width="1176" height="130" key="GridCell.Tab.0.left" timestamp="1622184264612">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="587" height="252" key="GridCell.Tab.0.left/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
-    <state width="587" height="252" key="GridCell.Tab.0.right" timestamp="1622083630222">
+    <state width="1176" height="130" key="GridCell.Tab.0.left/0.0.1234.783@0.0.1234.783" timestamp="1622184264612" />
+    <state width="1176" height="130" key="GridCell.Tab.0.right" timestamp="1622184264612">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="587" height="252" key="GridCell.Tab.0.right/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
-    <state width="587" height="252" key="GridCell.Tab.1.bottom" timestamp="1622083630222">
+    <state width="1176" height="130" key="GridCell.Tab.0.right/0.0.1234.783@0.0.1234.783" timestamp="1622184264612" />
+    <state width="1176" height="130" key="GridCell.Tab.1.bottom" timestamp="1622184264613">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="587" height="252" key="GridCell.Tab.1.bottom/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
-    <state width="587" height="252" key="GridCell.Tab.1.center" timestamp="1622083630222">
+    <state width="1176" height="130" key="GridCell.Tab.1.bottom/0.0.1234.783@0.0.1234.783" timestamp="1622184264613" />
+    <state width="1176" height="130" key="GridCell.Tab.1.center" timestamp="1622184264613">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="587" height="252" key="GridCell.Tab.1.center/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
-    <state width="587" height="252" key="GridCell.Tab.1.left" timestamp="1622083630222">
+    <state width="1176" height="130" key="GridCell.Tab.1.center/0.0.1234.783@0.0.1234.783" timestamp="1622184264613" />
+    <state width="1176" height="130" key="GridCell.Tab.1.left" timestamp="1622184264613">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="587" height="252" key="GridCell.Tab.1.left/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
-    <state width="587" height="252" key="GridCell.Tab.1.right" timestamp="1622083630222">
+    <state width="1176" height="130" key="GridCell.Tab.1.left/0.0.1234.783@0.0.1234.783" timestamp="1622184264613" />
+    <state width="1176" height="130" key="GridCell.Tab.1.right" timestamp="1622184264613">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state width="587" height="252" key="GridCell.Tab.1.right/0.0.1234.783@0.0.1234.783" timestamp="1622083630222" />
+    <state width="1176" height="130" key="GridCell.Tab.1.right/0.0.1234.783@0.0.1234.783" timestamp="1622184264613" />
     <state width="210" height="477" key="HiddenNamespacesPopup" timestamp="1621951484316">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
@@ -363,10 +379,10 @@
       <screen x="0" y="0" width="1234" height="783" />
     </state>
     <state x="119" y="0" key="SettingsEditor/0.0.1234.783@0.0.1234.783" timestamp="1621951092919" />
-    <state x="210" y="124" key="Vcs.Push.Dialog.v2" timestamp="1622036342416">
+    <state x="210" y="124" key="Vcs.Push.Dialog.v2" timestamp="1622110506271">
       <screen x="0" y="0" width="1234" height="783" />
     </state>
-    <state x="210" y="124" key="Vcs.Push.Dialog.v2/0.0.1234.783@0.0.1234.783" timestamp="1622036342416" />
+    <state x="210" y="124" key="Vcs.Push.Dialog.v2/0.0.1234.783@0.0.1234.783" timestamp="1622110506271" />
     <state x="418" y="169" key="chooseDestDirectoryDialog" timestamp="1621775509670">
       <screen x="0" y="0" width="1234" height="783" />
     </state>

@@ -3,7 +3,6 @@ import com.example.demo.Base.BaseController;
 import com.example.demo.Model.Content;
 import com.example.demo.Service.ContentService;
 import com.example.demo.util.FastJsonUtils;
-import io.netty.handler.timeout.ReadTimeoutException;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -45,7 +44,7 @@ public class ContentController extends BaseController {
         contentService.addContent(content);
         Map<String, Object> result = new HashMap<>();
         result.put("cid", cid);
-        return FastJsonUtils.resultSuccess(200, "发布商品成功", result);
+        return FastJsonUtils.resultSuccess(200, "保存内容成功", result);
     }
 
     @GetMapping(value = "/delete", produces = {"application/json;charset=UTF-8"})

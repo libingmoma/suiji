@@ -1,9 +1,7 @@
-sever:
-  port:5555
 mybatis:
   configuration:
     mapUnderscoreToCamelCase: true
-  mapper-locations: classpath*:/mappers/**.xml
+  mapper-locations: classpath*:/mapper/**.xml
   type-aliases-package: com.example.demo.Model
 
 mapper:

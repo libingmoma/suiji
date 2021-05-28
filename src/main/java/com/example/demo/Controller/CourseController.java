@@ -39,8 +39,8 @@ public class CourseController extends BaseController {
 
     @GetMapping(value = "/delete", produces = {"application/json;charset=UTF-8"})
     @ApiOperation(value = "删除课程", notes = "删除课程")
-    public String delete(@ApiParam(name = "courseid", value = "课程id",required = true) @RequestParam long courseid){
-        courseService.deleteCourse(courseid);
+    public String delete(@ApiParam(name = "courseid", value = "课程id", required = true) @RequestParam long courseid) {
+        courseService.deleteByCourseId(courseid);
         Map<String, Object> result = new HashMap<>();
         result.put("courseid", courseid);
         return FastJsonUtils.resultSuccess(200, "删除课程成功", result);
@@ -48,7 +48,7 @@ public class CourseController extends BaseController {
 
     @GetMapping(value = "/insert", produces = {"application/json;charset=UTF-8"})
     @ApiOperation(value = "添加课程", notes = "添加课程")
-    public String insert(@ApiParam(name = "courseid", value = "课程id",required = true) @RequestParam long courseid){
+    public String insert(@ApiParam(name = "courseid", value = "课程id", required = true) @RequestParam long courseid) {
         courseService.insertCourse(courseid);
         Map<String, Object> result = new HashMap<>();
         result.put("course_id", courseid);
