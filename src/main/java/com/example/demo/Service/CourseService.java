@@ -26,30 +26,25 @@ public class CourseService extends BaseServiceImpl<Course> {
         return courseDao;
     }
 
-
+    public List<Course> searchByCourseName(String coursename) {
+        return courseDao.selectByCourseName(coursename);
+    }
     public List<Course> showAllCourse() {
 
         return courseDao.selectAll();
     }
-    public void deleteByCourseId(long courseid) {
-        courseDao.deleteByCourseId(courseid);
+    public void deleteByCourseName(String coursename) {
+        courseDao.deleteByCourseName(coursename);
     }
-    public void insertCourse(long courseid) {
-        courseDao.insertCourse(courseid);
+    public void insertCourse(Course course) {
+        courseDao.insertCourse(course);
     }
-    public Course searchByClassroomId(long classroomid) {
-        List<Course> result = courseDao.selectByClassroomId(classroomid);
-        if (result.size() != 1)
-            return null;
-        else return result.get(0);
-    }
-    public List<Course> searchByCourseName(String coursename) {
-        return courseDao.selectByCourseName(coursename);
+    public List<Course> searchByWeek(String week) {
+        return courseDao.selectByWeek(week);
     }
 
-    public List<Course> searchByTeacherName(String teachername) {
-        return courseDao.selectByTeacherName(teachername);
+    public void update(Course newCou) {
+        courseDao.updateByCourseName(newCou);
     }
-
 
 }

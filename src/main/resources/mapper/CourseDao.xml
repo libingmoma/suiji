@@ -4,20 +4,23 @@
     <resultMap id="CourseMap" type="com.example.demo.Model.Course">
         <id column="courseid" jdbcType="BIGINT" property="courseid"/>
         <result column="coursename" jdbcType="VARCHAR" property="coursename"/>
-        <result column="classroomid" jdbcType="VARCHAR" property="classroomid"/>
+        <result column="classroomid" jdbcType="BIGINT" property="classroomid"/>
         <result column="teachername" jdbcType="VARCHAR" property="teachername"/>
         <result column="time" jdbcType="VARCHAR" property="time"/>
+        <result column="week" jdbcType="VARCHAR" property="week"/>
     </resultMap>
-
-    <select id="selectByCourse_name" parameterType="string" resultMap="CourseMap">
-        select * FROM course c where c.coursename like "%"#{coursename}"%"
+     <select id="selectByWeek" parameterType="string" resultMap="CourseMap">
+        select * FROM course k where k.week like "%"#{week}"%"
+    </select>
+    <select id="selectByCourseName" parameterType="string" resultMap="CourseMap">
+        select * FROM course k where k.coursename like "%"#{coursename}"%"
     </select>
 
-    <delete id="deleteByCourseId" parameterType="long">
-        DELETE FROM course where courseid=#{coursseid}
+    <delete id="deleteByCourseName" parameterType="string">
+        DELETE FROM course where coursename=#{coursename}
     </delete>
     <insert id="insertCourse" parameterType="Course">
-        INSERT INTO course (courseid,coursename, classroomid, teachername,time) Value(#{courseid},#{coursename},#{classroomid},#{teachername},#{time})
+        INSERT INTO course (courseid,coursename, classroomid, teachername, time, week) Value(#{courseid},#{coursename},#{classroomid},#{teachername},#{time},#{week})
     </insert>
 
 </mapper>

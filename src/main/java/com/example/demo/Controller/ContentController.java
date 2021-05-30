@@ -48,7 +48,7 @@ public class ContentController extends BaseController {
 
     @GetMapping(value = "/search", produces = {"application/json;charset=UTF-8"})
     @ApiOperation(value = "查找内容", notes = "通过内容记录时间查找商品")
-    public String search(@ApiParam(name = "rtime", value = "记录时间") @RequestParam(required = false) String rtime) {
+    public String search(@ApiParam(name = "rtime", value = "记录时间",required = true) @RequestParam String rtime) {
         List<Content> results;
         results=contentService.searchByRtime(rtime);
         return FastJsonUtils.resultSuccess(200, "搜索商品成功", results);

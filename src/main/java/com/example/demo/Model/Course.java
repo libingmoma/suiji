@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 
 @Table(name = "`course`")
-@JSONType(orders = {"courseid","coursename","classroomid", "teachername", "time"})
+@JSONType(orders = {"courseid","coursename","classroomid", "teachername", "time","week"})
 public class Course extends BaseEntity {
     @Column(name = "`courseid`")
     private long courseid;
@@ -25,12 +25,16 @@ public class Course extends BaseEntity {
     @Column(name = "`time`")
     private String time;
 
-    public Course(long courseid, String coursename,long classroomid, String teachername,String time) {
+    @Column(name = "`week`")
+    private String week;
+
+    public Course(long courseid, String coursename,long classroomid, String teachername,String time,String week) {
         this.courseid = courseid;
         this.coursename = coursename;
         this.classroomid = classroomid;
         this.teachername = teachername;
         this.time = time;
+        this.week = week;
     }
 
     public Course() {
@@ -75,5 +79,13 @@ public class Course extends BaseEntity {
 
     public void setTime(String time) {
         this.time = time;
+    }
+
+    public String getWeek() {
+        return week;
+    }
+
+    public void setWeek(String week) {
+        this.week = week;
     }
 }
