@@ -34,10 +34,9 @@ public class ContentController extends BaseController {
     @PostMapping(value = "/commit", produces = {"application/json;charset=UTF-8"})
     @ApiOperation(value = "保存内容", notes = "保存内容")
     public String commit(@ApiParam(name = "ctype", value = "内容类型",required = true) @RequestParam int ctype,
-
                          @ApiParam(name = "cdescription", value = "内容描述") @RequestParam(required = false, defaultValue = "") String cdescription,
                          @ApiParam(name = "rtime", value = "记录时间") @RequestParam(required = false, defaultValue = "") String rtime,
-                         @ApiParam(name = "picuri", value = "图片uri",required = true) @RequestParam String picuri) {
+                         @ApiParam(name = "picuri", value = "图片uri") @RequestParam(required = false, defaultValue = "")  String picuri) {
         System.out.println(ctype);
         long cid = super.getIdGeneratorUtils().nextId();
         Content content = new Content(cid, ctype, cdescription, picuri,rtime);
@@ -47,12 +46,20 @@ public class ContentController extends BaseController {
         return FastJsonUtils.resultSuccess(200, "保存内容成功", result);
     }
 
+    @GetMapping(value = "/search", produces = {"application/json;charset=UTF-8"})
+    @ApiOperation(value = "查找内容", notes = "通过内容记录时间查找商品")
+    public String search(@ApiParam(name = "rtime", value = "记录时间") @RequestParam(required = false) String rtime) {
+        List<Content> results;
+        results=contentService.searchByRtime(rtime);
+        return FastJsonUtils.resultSuccess(200, "搜索商品成功", results);
+    }
+
     @GetMapping(value = "/delete", produces = {"application/json;charset=UTF-8"})
     @ApiOperation(value = "删除内容" , notes = "删除内容")
     public String delete(@ApiParam(name = "rtime", value = "记录时间",required = true) @RequestParam String rtime) {
         contentService.deleteByRtime(rtime);
         Map<String, Object> result = new HashMap<>();
         result.put("rtime", rtime);
-        return FastJsonUtils.resultSuccess(200, "删除商品成功", result);
+        return FastJsonUtils.resultSuccess(200, "删除内容成功", result);
     }
 }

@@ -38,9 +38,6 @@ public class ContentService extends BaseServiceImpl<Content> {
         return contentDao.selectByRtime(rtime);
     }
 
-    public List<Content> searchByCtype(int ctype) {
-        return contentDao.selectByCtype(ctype);
-    }
 
     /**
      * 根据gid删除商品
