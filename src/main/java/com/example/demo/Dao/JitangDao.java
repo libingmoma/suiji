@@ -9,6 +9,6 @@ import org.apache.ibatis.annotations.Select;
 public interface JitangDao extends MyMapper<Jitang>{
     @Select(value = "select * from jitang")
     List<Jitang> selectAll();
-    void insertJitang(String content);
+    void insertJitang(String newcontent);
     void deleteJitang(String content);
 }

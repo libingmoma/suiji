@@ -21,7 +21,7 @@ public class JitangService extends BaseServiceImpl<Jitang> {
     }
 
 
-    public List<Jitang> showAllcourse() {
+    public List<Jitang> showAlljitang() {
 
         return jitangDao.selectAll();
     }
@@ -29,8 +29,8 @@ public class JitangService extends BaseServiceImpl<Jitang> {
     public void deleteJitang(String content) {
         jitangDao.deleteJitang(content);
     }
-    public void insertJitang(String content) {
-        jitangDao.insertJitang(content);
+    public void insertJitang(String newcontent) {
+        jitangDao.insertJitang(newcontent);
     }
 
 }

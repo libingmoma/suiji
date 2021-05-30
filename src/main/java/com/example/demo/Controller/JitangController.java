@@ -29,29 +29,24 @@ public class JitangController extends BaseController {
      * 列表测试
      */
 
-    @GetMapping(value = "/all", produces = {"application/json;charset=UTF-8"})
+    @GetMapping(value = "/show", produces = {"application/json;charset=UTF-8"})
     @ApiOperation(value = "全部鸡汤", notes = "全部鸡汤")
     public String all() {
-        List<Jitang> result = jitangService.showAllcourse();
+        List<Jitang> result = jitangService.showAlljitang();
         return FastJsonUtils.resultSuccess(200, "拉取鸡汤列表成功", result);
     }
-
-    @GetMapping(value = "/delete", produces = {"application/json;charset=UTF-8"})
-    @ApiOperation(value = "删除鸡汤", notes = "删除鸡汤")
-    public String delete(@ApiParam(name = "content", value = "鸡汤content", required = true) @RequestParam String content) {
+    @GetMapping(value = "/change", produces = {"application/json;charset=UTF-8"})
+    @ApiOperation(value = "更新鸡汤", notes = "更新鸡汤")
+    public String update(@ApiParam(name = "content", value = "鸡汤content", required = true) @RequestParam String content,
+                         @ApiParam(name = "newcontent", value = "更新的鸡汤content", required = true) @RequestParam String newcontent
+                        ) {
         jitangService.deleteJitang(content);
+        jitangService.insertJitang(newcontent);
         Map<String, Object> result = new HashMap<>();
-        result.put("content", content);
-        return FastJsonUtils.resultSuccess(200, "删除鸡汤成功", result);
+        result.put("content", newcontent);
+        return FastJsonUtils.resultSuccess(200, "更新鸡汤成功", result);
     }
 
-    @GetMapping(value = "/insert", produces = {"application/json;charset=UTF-8"})
-    @ApiOperation(value = "添加鸡汤", notes = "添加鸡汤")
-    public String insert(@ApiParam(name = "content", value = "鸡汤content", required = true) @RequestParam String content) {
-        jitangService.insertJitang(content);
-        Map<String, Object> result = new HashMap<>();
-        result.put("content", content);
-        return FastJsonUtils.resultSuccess(200, "添加鸡汤成功", result);
-    }
+
 
 }
