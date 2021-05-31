@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SuiJiFront">
-        <activity android:name=".MyselfActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".MyselfActivity" />
         <activity android:name=".TodoEditActivity" />
         <activity android:name=".TodoAddActivity" />
         <activity android:name=".TodoActivity" />
@@ -18,11 +21,10 @@
         <activity android:name=".CsEditActivity" />
         <activity android:name=".CsTableActivity" />
         <activity android:name=".CsAddActivity" />
-        <activity android:name=".CourseActivity" />
         <activity android:name=".JitangActivity" />
         <activity android:name=".MessageLogInActivity" />
         <activity android:name=".LogInActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".FirstActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -13,8 +13,9 @@
         android:background="#EEEEEE">
 
         <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:id='@+id/add_back'
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_marginLeft="20dp"
             android:layout_gravity="center"
             android:background="@drawable/base_action_back"
@@ -230,7 +231,7 @@
         android:background="#0099dd" />
 
         <Button
-            android:id="@+id/preserve_btn"
+            android:id="@+id/preserve_btn_add"
             android:layout_width="330dp"
             android:layout_height="50dp"
             android:layout_marginTop="40dp"

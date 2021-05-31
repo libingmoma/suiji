@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="0dp"
-    android:fadingEdge="horizontal"
-    tools:context=".MyselfActivity">
+    tools:context=".ui.myself.MyselfFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,22 +15,22 @@
 
         <ImageView
             android:id="@+id/pto"
-            android:layout_width="210dp"
-            android:layout_height="210dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
-            android:layout_marginBottom="10dp"
-            android:src="@drawable/temp"
-            tools:layout_marginLeft="100dp" />
+            android:layout_width="230dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/temp" />
 
         <TextView
             android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
             android:text="昵称："
             android:textColor="#353535"
             android:textSize="20sp"
-            tools:layout_marginLeft="60dp" />
+             />
         <TextView
             android:id="@+id/yonghuming"
             android:layout_width="wrap_content"
@@ -94,5 +91,4 @@
             android:background="@color/black" />
     </LinearLayout>
 
-
-</LinearLayout>
+</FrameLayout>

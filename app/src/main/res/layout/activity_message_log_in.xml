@@ -19,14 +19,16 @@
             android:src="@drawable/temp" />
 
         <EditText
+            android:id="@+id/phoneNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/phoneNumber"
-            android:hint="手机号"
-            android:inputType="phone"
+            android:layout_below="@+id/pto"
             android:layout_marginLeft="30sp"
             android:layout_marginRight="30sp"
-            android:layout_below="@+id/pto"/>
+            android:text="手机号"
+            android:textColorHint="@color/black"
+            android:inputType="phone"
+            android:visibility="visible" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,7 +47,7 @@
             android:layout_marginLeft="270dp"
             android:layout_marginTop="-54dp"
             android:background="#FFBB86"
-            android:hint="获取验证码"
+            android:text="获取验证码"
             android:padding="3dp"
             android:textColor="@android:color/white"
             android:textSize="20sp"

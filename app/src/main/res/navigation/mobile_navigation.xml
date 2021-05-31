@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_course">
+
+    <fragment
+        android:id="@+id/navigation_course"
+        android:name="com.example.suijifront.ui.course.CourseFragment"
+        android:label="Course"
+        tools:layout="@layout/fragment_course"/>
+
+    <fragment
+        android:id="@+id/navigation_todo"
+        android:name="com.example.suijifront.ui.todo.TodoFragment"
+        android:label="Todo"
+        tools:layout="@layout/fragment_todo"/>
+
+    <fragment
+        android:id="@+id/navigation_myself"
+        android:name="com.example.suijifront.ui.myself.MyselfFragment"
+        android:label="Myself"
+        tools:layout="@layout/fragment_myself"/>
+</navigation>

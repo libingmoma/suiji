@@ -18,7 +18,7 @@ public class JitangActivity extends AppCompatActivity {
         receive.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(JitangActivity.this,CourseActivity.class);
+                Intent intent=new Intent(JitangActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });
