@@ -12,10 +12,8 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" />
-        <activity android:name=".MyselfActivity" />
         <activity android:name=".TodoEditActivity" />
         <activity android:name=".TodoAddActivity" />
-        <activity android:name=".TodoActivity" />
         <activity android:name=".CsContentEditActivity" />
         <activity android:name=".CsContentActivity" />
         <activity android:name=".CsEditActivity" />
