@@ -4,6 +4,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:orientation="vertical"
     tools:context=".TodoAddActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id='@+id/add_back'
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/base_action_back"
+            android:backgroundTint="@color/black" />
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="100dp"
+            android:text="添加代办"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <EditText
+
+        android:id="@+id/activity_TodoAdd_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:background="@android:drawable/edit_text"
+        android:enabled="true"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:minLines="8"
+        android:scrollbars="vertical"
+        android:text="输入的内容"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/preserve_btn_add"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="16dp"
+        android:background="#CCCCFF"
+        android:text="保存"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        app:backgroundTint="#CCCCFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
