@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -17,14 +18,17 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 
+import com.example.suijifront.CsContentActivity;
 import com.example.suijifront.CsTableActivity;
+import com.example.suijifront.JitangActivity;
+import com.example.suijifront.MainActivity;
 import com.example.suijifront.R;
 
 public class CourseFragment extends Fragment {
 
     private CourseViewModel courseViewModel;
     private Button courseTableCheck;
-
+    private Button course1;
 
     public View onCreateView( @NonNull LayoutInflater inflater,ViewGroup container, Bundle savedInstanceState) {
         courseViewModel = new ViewModelProvider(this).get(CourseViewModel.class);
@@ -37,6 +41,16 @@ public class CourseFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+        course1=(Button) view.findViewById(R.id.course1);
+        course1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), CsContentActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
         final TextView textView = view.findViewById(R.id.title1);
 //        courseViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
 //            @Override
