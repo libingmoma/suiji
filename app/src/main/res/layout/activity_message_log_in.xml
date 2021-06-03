@@ -52,7 +52,6 @@
             android:textColor="@android:color/white"
             android:textSize="20sp"
             android:visibility="visible"
-            android:backgroundTint="@color/purple_200"
             app:backgroundTint="@color/purple_200"/>
     </RelativeLayout>
 
@@ -69,7 +68,6 @@
         android:textColor="@android:color/white"
         android:textSize="30sp"
         android:visibility="visible"
-        android:backgroundTint="@color/purple_200"
         app:backgroundTint="@color/purple_200"/>
 
 
