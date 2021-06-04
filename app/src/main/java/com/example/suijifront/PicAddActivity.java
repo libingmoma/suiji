@@ -11,6 +11,7 @@ import android.widget.ImageView;
 public class PicAddActivity extends AppCompatActivity {
 
     private ImageView pic_add_back;
+    private ImageView img2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,14 @@ public class PicAddActivity extends AppCompatActivity {
             }
         });
 
+        img2=(ImageView) findViewById(R.id.img2);
+        img2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(PicAddActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
