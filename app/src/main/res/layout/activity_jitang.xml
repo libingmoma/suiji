@@ -56,7 +56,7 @@
                 app:backgroundTint="@color/purple_400"
                 android:background="@color/purple_400">
 
-                <TextView
+                <EditText
                     android:id="@+id/t_jiTang"
                     android:layout_width="284dp"
                     android:layout_height="336dp"
@@ -67,7 +67,7 @@
                     android:textColor="@color/black"
                     android:textSize="35sp">
 
-                </TextView>
+                </EditText>
 
             </RelativeLayout>
 
