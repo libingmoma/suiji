@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MessageLogInActivity">
+    tools:context=".CsContentEditActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -57,7 +57,7 @@
                 android:padding="8sp"
                 android:background="@color/purple_400"
                 android:gravity=""
-                android:text="软件工程实践"
+                android:text="课程1"
                 android:textColor="@color/black"
                 android:textSize="25dp"
                 android:textStyle="bold">
@@ -73,7 +73,7 @@
                 android:layout_marginBottom="35dp"
                 android:background="@color/white">
 
-                <TextView
+                <EditText
                     android:id="@+id/t_cs_content"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -81,19 +81,11 @@
                     android:layout_marginTop="0dp"
                     android:layout_marginRight="25dp"
                     android:text=
-                        "课程内容......课程内容......课程内容......课程内容......
-                    课程内容......课程内容......课程内容......课程内容......
-                    课程内容......课程内容......课程内容......课程内容......
-                    课程内容......课程内容......课程内容......课程内容......
-                    课程内容......课程内容......课程内容......课程内容......
-                    课程内容......课程内容......课程内容......课程内容......
-                    课程内容......课程内容......课程内容......课程内容......
-                    课程内容......课程内容......课程内容......课程内容......
-                    课程内容......课程内容......"
+                        ""
                     android:textColor="@color/black"
                     android:textSize="20sp">
 
-                </TextView>
+                </EditText>
 
             </ScrollView>
 

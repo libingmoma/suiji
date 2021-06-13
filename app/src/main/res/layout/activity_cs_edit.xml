@@ -9,7 +9,7 @@
     tools:context=".CsEditActivity">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:background="#EEEEEE">
 
         <ImageView
@@ -59,7 +59,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:gravity="center_vertical"
         android:orientation="horizontal" >
@@ -77,14 +77,14 @@
             android:text="名称"
             android:textSize="16sp" />
 
-        <TextView
-            android:id="@+id/activity_course_info_name"
+        <EditText
+            android:id="@+id/see_course_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:text="已填写"
+            android:text="软工实践"
             android:textColor="#B1B1B1"
             android:textSize="16sp" />
 
@@ -93,7 +93,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:orientation="horizontal"
         android:gravity="center_vertical" >
@@ -112,20 +112,21 @@
             android:text="教室"
             android:textSize="16sp" />
 
-        <TextView
-            android:id="@+id/activity_course_info_classroom"
+        <EditText
+            android:id="@+id/see_class_room"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:text="已填写"
+            android:text="教书院201"
             android:textColor="#B1B1B1"
             android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:orientation="horizontal"
         android:gravity="center_vertical" >
@@ -143,13 +144,14 @@
             android:text="老师"
             android:textSize="16sp" />
 
-        <TextView
-            android:id="@+id/activity_course_info_teacher"
+        <EditText
+            android:id="@+id/see_teacher_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:text="已填写"
+            android:text="Mr.su"
             android:textColor="#B1B1B1"
             android:textSize="16sp" />
     </LinearLayout>
@@ -157,31 +159,33 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        android:gravity="center_vertical" >
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
 
         <ImageView
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_marginLeft="20dp"
-            android:background="@drawable/ic_detail_course_section_icon"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:text="节数"
-            android:textSize="16sp" />
+            android:background="@drawable/ic_detail_course_section_icon" />
 
         <TextView
-            android:id="@+id/activity_course_info_class"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="星期数"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/see_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:text="周一 1-2节"
+            android:text="2"
             android:textColor="#B1B1B1"
             android:textSize="16sp" />
     </LinearLayout>
@@ -189,33 +193,67 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        android:gravity="center_vertical" >
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
 
         <ImageView
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_marginLeft="20dp"
-            android:background="@drawable/ic_detail_course_week_icon"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:text="周数"
-            android:textSize="16sp" />
+            android:background="@drawable/ic_detail_course_week_icon" />
 
         <TextView
-            android:id="@+id/activity_course_info_session"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:text="1-19周"
-            android:textColor="#B1B1B1"
+            android:text="开始节数"
             android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/see_classes_begin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="2"
+            android:textColor="#B1B1B1"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ic_detail_course_week_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="结束节数"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/see_classes_ends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="3"
+            android:textColor="#B1B1B1"
+            android:textSize="16sp"/>
     </LinearLayout>
 
 
@@ -231,17 +269,39 @@
             android:layout_marginRight="15dp"
             android:background="#0099dd" />
 
-        <Button
-            android:id="@+id/preserve_btn_edit"
-            android:layout_width="330dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="40dp"
-            android:layout_gravity="center"
-            android:background="#CCCCFF"
-            app:backgroundTint="#CCCCFF"
-            android:text="保存"
-            android:textColor="@android:color/white"
-            android:textSize="25sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_revise"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="65dp"
+                android:layout_gravity="center"
+                android:background="#CCCCFF"
+                app:backgroundTint="#CCCCFF"
+                android:text="保存"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn_del"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="70dp"
+                android:layout_gravity="center"
+                android:background="#CCCCFF"
+                app:backgroundTint="#CCCCFF"
+                android:text="删除"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+
 
 
     </LinearLayout>

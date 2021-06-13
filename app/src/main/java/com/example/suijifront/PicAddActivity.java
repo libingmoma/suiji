@@ -31,7 +31,7 @@ public class PicAddActivity extends AppCompatActivity {
         img2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(PicAddActivity.this, MainActivity.class);
+                Intent intent=new Intent(PicAddActivity.this, ContentShowActivity.class);
                 startActivity(intent);
             }
         });

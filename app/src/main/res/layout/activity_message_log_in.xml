@@ -25,8 +25,7 @@
             android:layout_below="@+id/pto"
             android:layout_marginLeft="30sp"
             android:layout_marginRight="30sp"
-            android:text="手机号"
-            android:textColorHint="@color/black"
+            android:hint="手机号"
             android:inputType="phone"
             android:visibility="visible" />
         <EditText

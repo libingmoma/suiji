@@ -13,6 +13,7 @@ public class CsContentActivity extends AppCompatActivity {
     private ImageView cs_content_back;
     private Button edit2;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.todo.TodoFragment">
+    tools:context=".TodoShowActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
 
         <TextView
             android:id="@+id/title2"
@@ -26,14 +27,14 @@
             android:background="@color/black" />
 
         <Button
-            android:id="@+id/todo1"
+            android:id="@+id/todo_j"
             android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="#CCCCFF"
             android:gravity="center"
-            android:text="待办1"
+            android:text="移动应用项目\n2021-06-25"
             android:textSize="40dp"
             app:backgroundTint="#CCCCFF">
 
@@ -81,6 +82,7 @@
         </Button>
 
     </LinearLayout>
+
 
 
 </FrameLayout>

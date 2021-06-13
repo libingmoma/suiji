@@ -7,23 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class TodoAddActivity extends AppCompatActivity {
+public class TodoShowActivity extends AppCompatActivity {
 
-    private Button todo_preserve;
-
+    private Button todo_j;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_todo_add);
+        setContentView(R.layout.activity_todo_show);
 
-        todo_preserve=(Button)findViewById(R.id.todo_preserve);
-        todo_preserve.setOnClickListener(new View.OnClickListener() {
+        todo_j=(Button)findViewById(R.id.todo_j);
+        todo_j.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(TodoAddActivity.this,TodoShowActivity.class);
+                Intent intent=new Intent(TodoShowActivity.this,MainActivity.class);
                 startActivity(intent);
 
             }
         });
+
     }
 }

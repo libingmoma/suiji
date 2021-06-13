@@ -6,24 +6,24 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
-public class TodoAddActivity extends AppCompatActivity {
+public class ContentShowActivity extends AppCompatActivity {
 
-    private Button todo_preserve;
-
+    private ImageView cs_content_show_back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_todo_add);
+        setContentView(R.layout.activity_content_show);
 
-        todo_preserve=(Button)findViewById(R.id.todo_preserve);
-        todo_preserve.setOnClickListener(new View.OnClickListener() {
+        cs_content_show_back=(ImageView) findViewById(R.id.cs_content_show_back);
+        cs_content_show_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(TodoAddActivity.this,TodoShowActivity.class);
+                Intent intent=new Intent(ContentShowActivity.this, MainActivity.class);
                 startActivity(intent);
-
             }
         });
     }
 }
+
